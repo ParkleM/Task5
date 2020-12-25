@@ -14,8 +14,6 @@ namespace WindowsFormsApp1
     {
         private bool _leftMove = true;
         private bool _upMove = true;
-        private bool _leftMove2 = true;
-        private bool _upMove2 = true;
         int speed = 3;
         public Form1()
         {
@@ -34,11 +32,6 @@ namespace WindowsFormsApp1
                 _upMove = true;
             if (pictureBox1.Bottom >= ClientRectangle.Bottom)
                 _upMove = false;
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void button2_Click(object sender, EventArgs e)
